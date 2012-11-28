@@ -1,0 +1,37 @@
+# configure file
+# configure the server, the parameters of the server
+# the pattern is one name to one value, or one name to more value
+
+############# site parameters ##############
+# the ip address for the server
+ip = 0
+
+# the port the server for listening
+port = 8099
+
+# listen socket waiting list size
+lisnBackLog = 5
+
+# root directory the server deployment, absolute path
+rootDirectory = /home/kzhiquan/kzq/eyesee/eyesee/web
+
+# default page, if the input "/", give the
+defaultPage = browser.html
+
+############# epoll parameters ###############
+# epoll size to the epfd
+pollSize = 256
+
+# pollEvents size for the events array
+maxEvents = 256
+
+
+########### data base parameter #################
+dbname = eyesee.db
+
+
+########## log file parameter ###################
+logfile = eyesee.log0
+
+# one name to more value
+imageFormat = .jpg; .bmp

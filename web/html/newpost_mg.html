@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>new post</title>
+        <link href="/css/newpost_mg.css" type="text/css" rel="stylesheet" />
+        <script src="/js/EyeBase.js" type="text/javascript" language="JavaScript"></script>
+        <script src="/ext/json2.js" type="text/javascript" language="JavaScript"></script>
+        <script src="/js/Post.js" type="text/javascript" language="JavaScript"></script>
+    </head>
+    <body>
+    	<div id="wrapper">
+    		<div id="location">
+  				<div id="postguid"></div>
+    		</div>
+    		<div id="postoperation">
+    			<span>visibility:</span>
+    			<select id="postvisibility">
+    				<option value="public" selected>public</option>
+    				<option value="private">private</option>
+    			</select>
+    			<span>category:</span>
+    			<select id="postcategory">
+    				<option value="技术">技术</option>
+    				<option value="随笔">随笔</option>
+    				<option value="闲聊">闲聊</option>
+    				<option value="未分">未分</option>
+    			</select>
+    			<input type="button" id="postpublish" value="publish" />
+    			<input type="button" id="postpreview" value="preview" />
+    			<input type="button" id="postmodify" value="modify" />
+    		</div>
+    		<div id="editbody">
+    			<div id="edittool">
+    				<input id="edit_tool_bold" class="edit_tool_item" type="button" value="b"/>
+    				<input id="edit_tool_italic" class="edit_tool_item" type="button" value="i" />
+    				<input id="edit_tool_link" class="edit_tool_item" type="button" value="link" />
+    				<input id="edit_tool_img" class="edit_tool_item" type="button" value="img" />
+    				<input id="edit_tool_ul" class="edit_tool_item" type="button" value="ul"/>
+    				<input id="edit_tool_ol" class="edit_tool_item" type="button" value="ol" />
+    				<input id="edit_tool_li" class="edit_tool_item" type="button" value="li" />
+    				<input id="edit_tool_code" class="edit_tool_item" type="button" value="code" />
+    				<input id="edit_tool_bquote" class="edit_tool_item" type="button" value="b-quote" />
+    			</div>
+    			<div id="editcontent">
+    				<div id="posttitle">
+    					<input id="content_title" type="text" value="input title here" />
+    				</div>
+    				<div id="postcontent">
+    					<iframe id="content_utitlty" name="richedit" src="blank.html">
+    					</iframe>
+    				</div>
+    			</div>
+    			<div id="poststat">
+    				<span>word count:0</span>
+    			</div>
+    		</div>
+    		<div id="insertimglight" class="insertimgcontent">
+    			<div id="imgfilebrowser">
+    			</div>
+    			<img src="#" id="imgminibrowser" style="width:100px;height:150px;display:block;">
+    			<input type="button" id="insertimgok" value="确定" />
+    			<input type="button" id="insertimgcancel" value="取消"/>
+    		</div>
+    		<div id="insertimgfade" class="insertimgoverlay">
+    		</div>
+    		<div id="insertlinklight" class="insertlinkcontent">
+				<span>href:</span>
+				<input type="text" id="insertlinkhref" />
+    			<input type="button" id="insertlinkok" value="确定" />
+    			<input type="button" id="insertlinkcancel" value="取消"/>
+    		</div>
+    		<div id="insertlinkfade" class="insertlinkoverlay">
+    	    </div>
+    	</div>
+    	<script type="text/javascript">	
+    		window.onload = function(){frames["richedit"].document.designMode = "on";}
+    	</script>
+    	 <script src="/js/NewPost_mg.js" type="text/javascript" language="JavaScript"></script>
+    </body>
+</html>

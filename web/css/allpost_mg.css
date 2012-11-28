@@ -1,0 +1,106 @@
+/* new post css */
+
+/* the outside of the page div */
+#wrapper{
+	width: 100%;
+	min-height: 600px;
+}
+
+/* location page info*/
+#location{
+	border-bottom: 1px solid blue;
+	text-align:left;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 2px;
+	width: 25%;
+	text-align:center;
+	font-size:20px;
+}
+
+
+/* post statistic info */
+#poststat{
+	margin-left: 0px;
+	padding-left: 0;
+	overflow:hidden;
+	border-bottom: 2px solid blue;
+	width: 50%;
+	font-size: 14px;
+}
+
+#poststat ul{
+	list-style-type: none;
+	float:left;
+	margin-left: 10px;
+	padding-left: 0;
+}
+
+#poststat ul li{
+	float:left;
+	margin: 5px;
+}
+
+/* a element not active */
+#poststat a:link,
+#poststat a:visited{
+	text-decoration:none;
+	font-weight: bold;
+}
+
+/* a element is active */
+#poststat a:hover,
+#poststat a:focus{
+	color:blue;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+/* post filter */
+#postfilter{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 0px;
+	padding-left: 0px;
+	border-bottom: 3px solid blue;
+	width: 100%;
+}
+
+#postfilter select{
+	width: 130px;
+	height: 25px;
+	background-color:#FFFFFF;
+	margin: 10px;
+}
+
+#postfilter input{
+	width: 80px;
+	height: 25px;
+	margin-left: 100px;
+}
+
+
+/* table info */
+#post_table{
+	width: 100%;
+	border: 1px solid #AFAFCF;
+	border-collapse: collapse;
+}
+
+
+#post_table thead, tfoot{
+	background-color: #DFDFDF;
+	border: 1px solid #AFAFCF;
+	text-align: center;
+}
+
+#post_table thead th, tfoot td{
+	margin: 0px;
+	padding: 0px;
+}
+
+#post_table tbody{
+	text-align: center;
+	background-color: #FFFFFF;
+}
+

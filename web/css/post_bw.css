@@ -1,0 +1,271 @@
+
+
+/* just for client browser  post css */
+
+/* just make the content middle */
+body{
+	text-align:center;
+}
+
+#wrapper{
+	width: 780px;
+	margin: 0 auto;
+	text-align:left;
+}
+
+
+/* just set header css */
+#header{
+	min-height: 135px;
+	width: 100%;
+	background-image : url(/titleback1.jpg);
+	background-repeat:no-repeat;
+}
+
+#header_content{
+	padding-top:20px;
+	width: 80%;
+	height: 100%;
+}
+
+#header_content a{
+	padding: 20px;
+	margin-top: 20px;
+	font-size:large;
+	text-decoration: none;
+	font-family:"Calisto MT";
+}
+
+/* just set the nav css */
+#nav{
+	overflow:hidden;
+	background-color:#DFDFDF;
+	padding: 3px;
+}
+
+#nav ul{
+	float: left;
+	list-style-type: none;
+	padding-left: 2px;
+	margin: 2px;
+}
+
+#nav ul li{
+	float: left;
+
+}
+
+#nav ul li a{
+	display:block;
+	padding-right: 20px;
+}
+
+
+
+/* just set the main css */
+#main{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	min-height: 600px;
+	overflow: hidden;
+}
+
+/* content */
+#main #postbar{
+	margin:0px;
+	padding:0px;
+	width: 70%;
+	border: 1px solid #DFDFDF;
+	float: left;
+}
+
+
+#content .post{
+	padding: 6px;
+	margin: 1px;
+	min-height: 400px;
+}
+
+#content .post .post_content{
+	font-size: 0.90em;
+	line-height: 22px;
+}
+
+#content .post .post_title{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color:#F3F6FA;
+	padding: 1px;
+}
+
+#content .post .post_title .post_title_text{
+	font-weight: bold;
+}
+
+#content .post .post_title .post_title_content{
+	padding:3px;
+}
+
+#content .post .post_title .post_title_detail{
+	padding:3px;
+	padding-left: 20px;
+	font-size: 0.8em;
+}
+
+
+
+/* comment css here */
+#main #comment{
+	margin:0px;
+	padding:1px;
+	margin-bottom: 3px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+
+
+/* comment_his css here */
+#comment #comment_his{
+	margin-top: 3px;
+	width:100%;
+	border: 1px solid #DFDFDF;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+#comment_his .post_comment{
+	margin-top: 5px;
+	padding: 5px;
+	margin-bottom:10px;
+}
+
+#comment_his .post_comment .post_comment_author{
+	background-color:#F3F6FA;
+	margin:4px;
+	padding: 2px;
+	font-size: 0.95em;
+}
+
+#comment_his .post_comment .post_comment_date{
+	padding-left: 20px;
+	font-size: 0.8em;
+}
+
+#comment_his .post_comment .post_comment_content{
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 0.94em;
+}
+
+
+#comment #comment_cur{
+	margin-top: 3px;
+	margin-left: 10px;
+	width: 100%;
+	margin-left: 2px;
+	border-left: 2px;
+	border: 1px solid #DFDFDF;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+#comment_cur .comment_cur_title{
+	background-color:#F3F6FA;
+	padding: 5px;
+}
+
+#comment_cur .comment_cur_item input{
+	width: 50%;
+	margin-top: 4px;
+}
+
+#comment_cur textarea{
+	width: 90%;
+	min-width: 90%;
+	min-height: 160px;
+}
+
+#comment_cur #comment_content_submit{
+	display:block;
+	width: 180px;
+	height: 35px;
+	margin: 5px;
+}
+
+
+/*sidebar */
+#main #sidebar{
+	float: right;
+	width: 29%;
+	border: 1px solid #DFDFDF;
+}
+
+
+#main #sidebar .sidebar_content{
+	width: 100%;
+	/*min-height: 200px;*/
+	margin: 1px;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+
+#main #sidebar .sidebar_content_title{
+	background-color:#F3F6FA;
+	margin: 2px;
+	margin-left: 0;
+	margin-top: 12px;
+	min-height: 35px;
+	padding: 2px;
+	padding-left: 0;
+}
+
+
+#main #sidebar #postsbrief ul{
+	margin: 10px;
+	padding: 0px;
+}
+
+#main #sidebar #postsbrief ul li{
+	list-style-type: none;
+	font-size: 0.94em;
+}
+
+#main #sidebar #postsbrief ul li a{
+	display:block;
+	width:15em;
+	word-break:keep-all;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+
+
+/* set the footer */
+#footer{
+	background-color:#DFDFDF;
+	text-align:center;
+	padding:1px;
+	width:100%;
+	height: 100%;
+	font-size: 0.90em;
+}
+
+#footer p{
+	margin: 0;
+	padding: 2px;
+}
+
+
+
+/* unify part */
+a:link, a:visited{
+	text-decoration:none;
+	color:black;
+}
+
+a:hover, a:focus, a:active {
+	text-decoration:underline;
+	font-weight:bold;
+}

@@ -1,0 +1,12 @@
+#!/bin/bash
+#configure the webApplication eyesee
+
+#configure the envirenment
+
+
+
+#configure the dateabase
+echo "create eyesee.db..."
+echo "create tables..."
+sqlite3 eyesee.db '.read eyeseedb.sql'
+echo "create eyesee.db end!"

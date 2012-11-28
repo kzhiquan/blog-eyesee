@@ -1,0 +1,15 @@
+#!/bin/bash
+
+process=`ps -ef | grep eyesee$`
+
+echo $process
+
+if [  -z "$process" ];then
+        echo $process
+        cd /root/deploy
+        dirname=logfile-`date +%Y-%m-%d-%I-%M-%S`
+        echo $dirnam
+        mkdir $dirname
+        mv *log* $dirname
+        ./eyesee
+fi

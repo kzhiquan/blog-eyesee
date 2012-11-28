@@ -1,0 +1,161 @@
+/* new post css */
+
+/* the outside of the page div */
+#wrapper{
+	width: 100%;
+	min-height: 600px;
+}
+
+
+/* set the page location imply postion 
+ * just left 
+ */
+#location{
+	border-bottom: 1px solid blue;
+	text-align:left;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 2px;
+	text-align:center;
+	width:40%;
+	font-size:14px;
+}
+
+
+/* post operation : visibable , publish, preview */
+#postoperation{
+	border-bottom: 2px solid blue;
+	padding-top: 20px;
+	padding-left: 5px;
+	height: 40px;
+	width: 65%;
+	overflow: hidden;
+}
+
+/* visibility */
+#postoperation select{
+	background-color:#FFFFFF;
+	width: 80px;
+}
+
+#postoperation input{
+	float: right;
+	margin-left: 20px;
+	margin-right: 4px;
+}
+
+/*edit content */
+#editbody{
+	border: 1px solid #BFBFBF;
+	width: 100%;
+	padding: 1px;
+	margin-top: 5px;
+}
+
+#edittool{
+	background-color: #DFDFDF;
+}
+
+/*edit tool item */
+#edittool .edit_toll_item{
+	width: 65px;
+	height: 25px;
+	margin: 3px;
+}
+
+#posttitle{
+	background-color:#FFFFFF;
+	width:100%;
+}
+#posttitle input{
+	border-bottom: 1px solid #BFBFBF;
+	border-left:0px;
+	border-top:0px;
+	border-right:0px;
+	padding: 4px;
+	margin: 2px;
+	background-color:#FFFFFF;
+	width: 35%;
+}
+
+#postcontent{
+	width:99.5%;
+	background-color:#FFFFFF;
+	margin: 0;
+	padding: 0;
+	padding-left: 3px;
+}
+#postcontent #content_utitlty{
+	border-bottom: 0px;
+	border-left:0px;
+	border-top:0px;
+	border-right:0px;
+	max-width:99%;
+	min-width:99%;
+	margin:0;
+	padding: 3px;
+	min-height:500px;
+}
+
+
+#poststat{
+	background-color: #DFDFDF;
+}
+
+
+/* id selector  insert img fade the background */
+#insertimgfade{
+	display:none;  /* first we give it have not take up the html stream */
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	background-color:gray;
+	z-index: 1001;
+	opacity: 0.8;
+}
+
+/* id selector insert img dialog div the front */
+#insertimglight{
+	display:none;
+	position:absolute;
+	top:25%;
+	left:25%;
+	width:50%;
+	height:70%;
+	padding: 10px;
+	border: 4px solid blue;
+	background-color:white;
+	z-index: 1002;
+	overflow:auto; /* when the div have no enought space to take in the content, scroll */
+}
+
+/* id selector  insert img fade the background */
+#insertlinkfade{
+	display:none;  /* first we give it have not take up the html stream */
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	background-color:gray;
+	z-index: 1001;
+	opacity: 0.8;
+}
+
+/* id selector insert img dialog div the front */
+#insertlinklight{
+	display:none;
+	position:absolute;
+	top:25%;
+	left:25%;
+	width:50%;
+	height:70%;
+	padding: 10px;
+	border: 4px solid blue;
+	background-color:white;
+	z-index: 1002;
+	overflow:auto; /* when the div have no enought space to take in the content, scroll */
+}
+

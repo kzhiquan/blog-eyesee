@@ -1,0 +1,179 @@
+/* manager  backgroud css */
+
+body{
+	margin-bottom:0;
+}
+
+/* the top part id selector */
+#top{
+	border-color: blue;
+	border-style: solid;
+	border-width: 1px;
+	/*height: 30px;*/
+	background-color: #CFDFEF;
+	overflow: hidden; /* clear the float element */
+}
+
+/* just make the object ul out of the normal stream,
+ 	and to the left screen. */
+#top ul#menu, ul#menu ul{
+	margin: 0px;
+	padding: 3px;
+	float:left;
+	list-style-type: none;
+	background-color: #CFDFEF;
+}
+
+/* just make the object ul which is in the ul object
+ 	out of the normal stream, and to the left screen 
+ 	the width: */
+#top ul#menu li {
+	margin: 0px;
+	float: left;
+	width: 10em;
+}
+
+
+/* just move the ul object which is in the li 
+   out side of the screen */
+#top ul#menu li ul{
+	width: 10em;
+	margin: 2px;
+	padding: 1px;
+	position: absolute;
+	display: none;
+}
+
+
+/* a under the ul.nav element , set the border left */
+#top ul#menu a{
+	display: block;
+	padding-left: 5px;
+	border-left: 2px solid #FFFFFF;
+}
+
+/* a element under the ul li li, set the top border */
+#top ul#menu li li a{
+	border-left: 0;
+}
+
+/* just make the object out of the normal stream
+ 	to the right border, */
+#top_userinfo {
+	float: right;
+	list-style-type: none;
+	width: 10em;
+	margin: 1px;
+	padding: 3px;
+	border-left: 2px solid #FFFFFF;
+}
+
+#top_userinfo a{
+	padding-left: 5px;
+	display: block;
+}
+
+/* set the a object which under the #top 
+ * hover, focus status style 
+ */
+#top a:hover,
+#top a:focus{
+	color:blue;
+	background-color: #AFAFCF;
+}
+
+/* just make the ul object when the parent element li is in
+ 	hover state, th ul object left board to auto */
+#top #menu li:hover ul {
+	display: block;
+	background-color:#FFFFFF;
+}
+
+
+
+/**/
+/* the middle part id selector */
+#middle{
+	height: 100%;
+	width: 100%;
+	background-color:#F7F7C7;
+	overflow: hidden; /* clear the float element */
+	margin-bottom: 0;
+}
+
+/* the div element consist of
+  nav ul element */
+#middle #nav{
+	border-top: 1px solid blue;
+	float: left;
+	width: 16%;
+	margin-top: 4px;
+	background-color: #CFDFEF;
+	display: inline;
+}
+
+/* nav element the ul */
+#middle #nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 3px;
+}
+
+/* hiddern the ul element */
+#middle #nav ul ul{
+	display: none;
+	width: 100%;
+	padding: 0px;
+}
+
+#middle #nav li{
+	width: 100%;
+}
+
+#middle #nav a{
+	padding: 2px;
+	margin: 0px;
+	display: block;
+	border-bottom:2px solid #FFFFFF;
+}
+
+#middle #nav a:hover,
+#middle #nav a:focus{
+	color:blue;
+	background-color: #AFAFCF;
+}
+
+#middle #nav li:hover ul{
+	display:block;
+	background-color:#FFFFFF;
+}
+
+/* content according to the menu item */
+#middle #content{
+	margin-top: 4px;
+	border-top: 1px solid blue;
+	border-left: 2px solid blue;
+	float: right;
+	width: 83.7%;
+	height: 100%;
+	height: 100%;
+	display: inline;
+	padding: 0px;
+}
+
+#middle #content iframe{
+	width: 100%;
+	min-height: 700px;
+	border: 0;
+}
+
+
+/* the down part id selector */
+#middle #down{
+	margin:0;
+	float:right;
+	border-top: 1px solid blue;
+	border-left: 2px solid blue;
+	width: 16%;
+	text-align: center;
+}
